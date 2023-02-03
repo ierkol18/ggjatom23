@@ -35,6 +35,7 @@ public class Animal : MonoBehaviour, IPointerClickHandler
         yield return new WaitForSeconds(0.8f);
 
         Destroy(ooc.gameObject);
+
     }
 
 }
