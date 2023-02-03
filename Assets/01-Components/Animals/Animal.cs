@@ -1,8 +1,9 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Animal : MonoBehaviour
+public class Animal : MonoBehaviour, IPointerClickHandler
 {
 
     [SerializeField] AnimalData animalData;
@@ -14,17 +15,13 @@ public class Animal : MonoBehaviour
         image.sprite = animalData.sprite;
     }
 
-    void Update()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        if (Input.GetMouseButtonDown(0))
+        if (eventData.pointerEnter == this.gameObject)
         {
             GameManager.instance.onClick();
-            
-          
             StartCoroutine(onObjectClicked());
-            
         }
-
     }
 
     IEnumerator onObjectClicked()
@@ -35,7 +32,7 @@ public class Animal : MonoBehaviour
         {
             ooc.gameObject.transform.position = rectT.TransformPoint(mousePos);
         }
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(0.8f);
 
         Destroy(ooc.gameObject);
     }
