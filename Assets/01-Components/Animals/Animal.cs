@@ -1,26 +1,40 @@
+using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Animal : MonoBehaviour
+public class Animal : MonoBehaviour, IPointerClickHandler
 {
 
     [SerializeField] AnimalData animalData;
     [SerializeField] Image image;
-   
+    [SerializeField] RectTransform rectT;
 
     void Start()
     {
         image.sprite = animalData.sprite;
     }
 
-    void Update()
+    public void OnPointerClick(PointerEventData eventData)
     {
-        if (Input.GetMouseButtonDown(0))
+        if (eventData.pointerEnter == this.gameObject)
         {
             GameManager.instance.onClick();
-            Instantiate(animalData.objectsOnClick_prefab);
+            StartCoroutine(onObjectClicked());
         }
+    }
 
+    IEnumerator onObjectClicked()
+    {
+        ObjectsOnClick ooc = Instantiate(animalData.objectsOnClick_prefab, transform);
+        Vector2 mousePos;
+        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectT, Input.mousePosition, null, out mousePos))
+        {
+            ooc.gameObject.transform.position = rectT.TransformPoint(mousePos);
+        }
+        yield return new WaitForSeconds(0.8f);
+
+        Destroy(ooc.gameObject);
 
     }
 
