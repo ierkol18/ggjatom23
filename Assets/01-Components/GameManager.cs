@@ -3,7 +3,7 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     private Animal currentAnimal;
-    public int clickCounter;
+    public int clickCounter = 0;
     public static GameManager instance { get; private set; }
        
     private void Awake()
@@ -16,5 +16,5 @@ public class GameManager : MonoBehaviour
         else
             Destroy(gameObject);
     }
-    
+
 }

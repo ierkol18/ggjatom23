@@ -5,6 +5,12 @@ public class Animal : MonoBehaviour
 {
 
     [SerializeField] AnimalData animalData;
+    [SerializeField] Image image;
+
+    void Start()
+    {
+        image.sprite = animalData.sprite;
+    }
 
     void Update()
     {
