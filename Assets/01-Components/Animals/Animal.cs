@@ -17,6 +17,7 @@ public class Animal : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
             GameManager.instance.onClick();
 
+
     }
 
 }
