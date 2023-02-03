@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "SkillData", menuName = "Skill", order = 1)]
+[CreateAssetMenu(fileName = "SkillData", menuName = "Skill", order = 0)]
 
-public class SkillData : MonoBehaviour
+public class SkillData : ScriptableObject 
 {
     public Sprite sprite;
     public int clickCost;
