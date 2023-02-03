@@ -6,6 +6,7 @@ public class Animal : MonoBehaviour
 
     [SerializeField] AnimalData animalData;
     [SerializeField] Image image;
+   
 
     void Start()
     {
@@ -15,7 +16,10 @@ public class Animal : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
+        {
             GameManager.instance.onClick();
+            Instantiate(animalData.objectsOnClick_prefab);
+        }
 
 
     }

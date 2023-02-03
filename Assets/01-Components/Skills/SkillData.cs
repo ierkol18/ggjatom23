@@ -8,6 +8,8 @@ public class SkillData : ScriptableObject
 {
     public Sprite sprite;
     public int clickCost;
+    public int extraPointPerClick;
+    [SerializeField] SkillData[] nextPossibleSkillDatas;
 
     public enum State
     {

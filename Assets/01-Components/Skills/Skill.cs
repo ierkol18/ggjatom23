@@ -8,6 +8,9 @@ public class Skill : MonoBehaviour
     public void BuySkill()
     {
         if(GameManager.instance.clickCounter >= skillData.clickCost)
+        {
             GameManager.instance.clickCounter -= skillData.clickCost;
+            GameManager.instance.pointPerClick += skillData.extraPointPerClick;
+        }
     }
 }
