@@ -15,10 +15,7 @@ public class Animal : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
-        {
-            GameManager.instance.clickCounter += animalData.pointPerClick;
-            Debug.Log(GameManager.instance.clickCounter);
-        }
+            GameManager.instance.onClick();
 
     }
 
