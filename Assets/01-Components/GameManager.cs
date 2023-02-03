@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
 
     public int clickCounter = 0;
     public int autoClickPerSecond = 1;
-    private int pointPerClick;
+    public int pointPerClick;
 
 
     private void Start()
