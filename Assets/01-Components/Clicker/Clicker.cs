@@ -9,7 +9,12 @@ public class Clicker : MonoBehaviour
     void Update()
     {
         if (Input.GetMouseButtonDown(0))
-            clicks += pointPerClick;
+        {
+            clickCounter += pointPerClick;
+            Debug.Log(clickCounter);
+
+        }
+
     }
 
  
