@@ -32,7 +32,6 @@ public class GameManager : MonoBehaviour
     public void onClick()
     {
         clickCounter += pointPerClick;
-        Debug.Log(message:clickCounter);
     }
 
     IEnumerator ClickPerSecond()
