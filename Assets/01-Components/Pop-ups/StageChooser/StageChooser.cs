@@ -16,11 +16,13 @@ public class StageChooser : MonoBehaviour
 
     private void OpenSeaScene()
     {
+        Debug.Log("Girdi");
         SceneManager.LoadSceneAsync(sceneName: "SeaScene");
     }
 
     private void OpenLandScene()
     {
         SceneManager.LoadSceneAsync("LandScene");
+        GameManager.instance.gameOn = true;
     }
 }
