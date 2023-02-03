@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Animal : MonoBehaviour, IPointerClickHandler
 {
 
-    [SerializeField] AnimalData animalData;
+    public AnimalData animalData;
     [SerializeField] Image image;
     [SerializeField] RectTransform rectT;
 

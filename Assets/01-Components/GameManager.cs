@@ -6,7 +6,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance { get; private set; }
     public bool gameOn;
 
-    private Animal currentAnimal;
+    public Animal currentAnimal;
 
     public int clickCounter = 0;
     public int autoClickPerSecond = 1;
