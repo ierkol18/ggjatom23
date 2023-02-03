@@ -406,6 +406,7 @@ GameObject:
   - component: {fileID: 1784328641}
   - component: {fileID: 1784328640}
   - component: {fileID: 1784328642}
+  - component: {fileID: 1784328643}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -484,8 +485,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 011f1507ccf2842188ffc95f06692104, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
   stageChooserGO: {fileID: 1649596791}
+--- !u!95 &1784328643
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1784328638}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 62b6e5a22d1d240558c99201c7220052, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
 --- !u!1 &1901887130
 GameObject:
   m_ObjectHideFlags: 0

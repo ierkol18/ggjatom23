@@ -6,5 +6,6 @@ using UnityEngine;
 public class AnimalData : ScriptableObject 
 {
     [SerializeField] AnimalData[] nextPossibleAnimalDatas;
+    public ObjectsOnClick objectsOnClick_prefab;
     public Sprite sprite;
 }
