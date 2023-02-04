@@ -9,11 +9,14 @@ public class SpecimenData : ScriptableObject
     public string specimenName;
     [TextArea] public string description;
     public State specimenState;
+    public AnimationClip animationClip;
+    public SpecimenData[] childSpecimens;
+    public SpecimenData[] siblingSpecimens;
 
     public enum State
     {
-        Locked,
-        Unlocked_Disable,
-        Unlocked_Active
+        LOCKED,
+        UNLOCKED_DISABLE,
+        UNLOCKED_ACTIVE
     }
 }

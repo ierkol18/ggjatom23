@@ -15,3 +15,6 @@ MonoBehaviour:
   specimenName: Add Leg
   description: Create a Walking Fluff
   specimenState: 2
+  animationClip: {fileID: 0}
+  childSpecimens: []
+  siblingSpecimens: []

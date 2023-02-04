@@ -15,3 +15,8 @@ MonoBehaviour:
   specimenName: Add Tail
   description: Create a Tailed Fluff
   specimenState: 2
+  animationClip: {fileID: 0}
+  childSpecimens:
+  - {fileID: 11400000, guid: 69ee1bf2942c719458a3c9c015cf63c2, type: 2}
+  siblingSpecimens: []
+  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
