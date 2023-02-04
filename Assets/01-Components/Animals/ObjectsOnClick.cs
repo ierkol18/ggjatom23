@@ -10,7 +10,7 @@ public class ObjectsOnClick : MonoBehaviour
 
     private void Start()
     {
-        image.sprite = GameManager.instance.currentAnimal.animalData.sprite;
+        image.sprite = GameManager.instance.currentAnimal.specimenData.sprite;
         text.text = GameManager.instance.pointPerClick.ToString();
     }
 

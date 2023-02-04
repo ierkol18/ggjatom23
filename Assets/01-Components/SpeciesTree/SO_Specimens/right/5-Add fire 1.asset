@@ -10,12 +10,16 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e0815de5ae2170478b2fdb2ea75ad7f, type: 3}
-  m_Name: 5-Add Mooooorrrrreeee legs
+  m_Name: 5-Add fire 1
   m_EditorClassIdentifier: 
-  specimenName: Add fire
-  description: Create a ugly fired things
+  specimenName: ' Add fire'
+  description: 
   specimenState: 0
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animal: {fileID: 0}
+  objectsOnClick_prefab: {fileID: 0}
+  sprite: {fileID: 0}
+  maxInstanceCount: 0
+  neededClickToClone: 0

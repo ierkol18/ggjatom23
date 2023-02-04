@@ -37,9 +37,9 @@ public class UICanvas : MonoBehaviour
             GameManager.instance.onClick();
             StartCoroutine(onObjectClicked());
 
-            if (currentAnimal.animalData.neededClickToClone <= GameManager.instance.clickCounter)
+            if (currentAnimal.specimenData.neededClickToClone <= GameManager.instance.clickCounter)
             {
-                if(currentAnimalsOnScreen.Count < currentAnimal.animalData.maxInstanceCount)
+                if(currentAnimalsOnScreen.Count < currentAnimal.specimenData.maxInstanceCount)
                 {
                     Animal newAnimal = Instantiate(currentAnimal, rectT);
                     GameManager.instance.clickCounter = 0;
@@ -52,8 +52,8 @@ public class UICanvas : MonoBehaviour
                 else
                 {
                     DestroyAll();
-                    GameManager.instance.currentAnimal = GameManager.instance.currentAnimal.animalData.nextPossibleAnimalDatas[0].animal;
-                    Debug.Log(GameManager.instance.currentAnimal);
+                    //GameManager.instance.currentAnimal = GameManager.instance.currentAnimal.specimenData.nextPossibleAnimalDatas[0].animal;
+                    //Debug.Log(GameManager.instance.currentAnimal);
                 }
             }
         }
@@ -74,7 +74,7 @@ public class UICanvas : MonoBehaviour
 
     IEnumerator onObjectClicked()
     {
-        ObjectsOnClick ooc = Instantiate(currentAnimal.animalData.objectsOnClick_prefab, rectT);
+        ObjectsOnClick ooc = Instantiate(currentAnimal.specimenData.objectsOnClick_prefab, rectT);
         Vector2 mousePos;
         if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectT, Input.mousePosition, null, out mousePos))
         {

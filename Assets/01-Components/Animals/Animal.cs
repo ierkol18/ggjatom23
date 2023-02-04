@@ -2,14 +2,13 @@ using DG.Tweening;
 using System;
 using System.Collections;
 using UnityEngine;
-using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public partial class Animal : MonoBehaviour
 {
     // --------------DATA------------------------ 
     [Header("Animal Data")]
-    public AnimalData animalData;
+    public SpecimenData specimenData;
     [SerializeField] Image image;
     
     // --------------TWEENING-------------------- 
@@ -37,7 +36,7 @@ public partial class Animal : MonoBehaviour
 
     void Start()
     {
-        image.sprite = animalData.sprite;
+        image.sprite = specimenData.sprite;
         DOTween.Init(true, true, LogBehaviour.Verbose).SetCapacity(200, 10); // Dotween initialized for the first time to adding bounce effect when clicked.
         _animalRT = GetComponent<RectTransform>(); // Getting the rect transform of the animal sprite.
         StartCoroutine(MoveImage());
