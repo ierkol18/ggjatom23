@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public partial class Animal : MonoBehaviour, IPointerClickHandler
+public partial class Animal : MonoBehaviour
 {
     // --------------DATA------------------------ 
     [Header("Animal Data")]
@@ -15,10 +15,10 @@ public partial class Animal : MonoBehaviour, IPointerClickHandler
     // --------------TWEENING-------------------- 
     [Header("Animal Tweening")]
     private Sequence _sizeTween;
-    private RectTransform _animalRT;
-    [SerializeField] private float _tweenDuration = 0.5f;
-    [SerializeField] private Vector2 _tweenSize = new Vector2(600f, 600f);
-    [SerializeField] private Vector2 _originalSize = new Vector2(500f, 500f);
+    public RectTransform _animalRT;
+    [SerializeField] public float _tweenDuration = 0.5f;
+    [SerializeField] public Vector2 _tweenSize = new Vector2(600f, 600f);
+    [SerializeField] public Vector2 _originalSize = new Vector2(500f, 500f);
     // --------------ANIMATION-------------------
     [Header("Animal Animation Settings")]
     [SerializeField] private float _animationSpeed = .25f;
@@ -41,7 +41,7 @@ public partial class Animal : MonoBehaviour, IPointerClickHandler
         DOTween.Init(true, true, LogBehaviour.Verbose).SetCapacity(200, 10); // Dotween initialized for the first time to adding bounce effect when clicked.
         _animalRT = GetComponent<RectTransform>(); // Getting the rect transform of the animal sprite.
 
-        currentAnimationClip = _animator.GetCurrentAnimatorClipInfo(0)[0].clip;
+        //currentAnimationClip = _animator.GetCurrentAnimatorClipInfo(0)[0].clip;
     }
     
     public void OnAnimationChange(AnimationClip anim)
@@ -53,16 +53,21 @@ public partial class Animal : MonoBehaviour, IPointerClickHandler
         }
     }
 
+/*
     public void OnPointerClick(PointerEventData eventData)
     {
-        if (eventData.pointerEnter == this.gameObject)
+    
+        GameManager.instance.onClick();
+        StartCoroutine(onObjectClicked());
+    
+        if(animalData.neededClickToClone == GameManager.instance.clickCounter)
         {
-            GameManager.instance.onClick();
-            StartCoroutine(onObjectClicked());
+            Animal newAnimal = Instantiate(this, rectT);
         }
+        
         tweenAnimalImage();
     }
-
+*/
     IEnumerator onObjectClicked()
     {
         ObjectsOnClick ooc = Instantiate(animalData.objectsOnClick_prefab, transform);
