@@ -23,7 +23,6 @@ public class UICanvas : MonoBehaviour
 
     public void Prepare(Animal animal)
     {
-        Debug.Log("Prepare");
         currentAnimal = animal;
     }
 
@@ -34,11 +33,10 @@ public class UICanvas : MonoBehaviour
             Vector2 mousePos;
 
             GameManager.instance.onClick();
-            // StartCoroutine(onObjectClicked());
+            StartCoroutine(onObjectClicked());
+
             if (currentAnimal.animalData.neededClickToClone <= GameManager.instance.clickCounter)
             {
-                Debug.Log("Girdi");
-              
                 if(currentAnimalsOnScreen.Count < currentAnimal.animalData.maxInstanceCount)
                 {
                     Animal newAnimal = Instantiate(currentAnimal, rectT);
@@ -49,14 +47,25 @@ public class UICanvas : MonoBehaviour
                         newAnimal.gameObject.transform.position = rectT.TransformPoint(mousePos);
                     }
                 }
-               
             }
         }
        
-
         //tweenAnimalImage();
     }
 
+    IEnumerator onObjectClicked()
+    {
+        ObjectsOnClick ooc = Instantiate(currentAnimal.animalData.objectsOnClick_prefab, rectT);
+        Vector2 mousePos;
+        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectT, Input.mousePosition, null, out mousePos))
+        {
+            ooc.gameObject.transform.position = rectT.TransformPoint(mousePos);
+        }
+        yield return new WaitForSeconds(0.8f);
+
+        Destroy(ooc.gameObject);
+
+    }
     
     
 

@@ -93,6 +93,7 @@ MonoBehaviour:
   animalData: {fileID: 11400000, guid: 2d3aa71076d2548f98c7e6c3e8915143, type: 2}
   image: {fileID: 8281004522381083401}
   rectT: {fileID: 0}
+  itsPrefab: {fileID: 8281004522381083399}
   _animalRT: {fileID: 0}
   _tweenDuration: 0.1
   _tweenSize: {x: 379, y: 395}
