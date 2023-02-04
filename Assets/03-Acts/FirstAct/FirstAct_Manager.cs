@@ -19,6 +19,7 @@ public class FirstAct_Manager : MonoBehaviour
     public void onPlayButton()
     {
         animator.enabled = true;
+        Debug.Log("hata");
 
     }
 
