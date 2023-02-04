@@ -5,7 +5,11 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "AnimalData", menuName = "Animal", order = 0)]
 public class AnimalData : ScriptableObject 
 {
-    [SerializeField] AnimalData[] nextPossibleAnimalDatas;
+    public AnimalData[] nextPossibleAnimalDatas;
+    public Animal animal;
     public ObjectsOnClick objectsOnClick_prefab;
     public Sprite sprite;
+
+    public int maxInstanceCount;
+    public int neededClickToClone;
 }

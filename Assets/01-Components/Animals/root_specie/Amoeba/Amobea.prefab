@@ -92,12 +92,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalData: {fileID: 11400000, guid: 2d3aa71076d2548f98c7e6c3e8915143, type: 2}
   image: {fileID: 8281004522381083401}
-  rectT: {fileID: 0}
+  _animalRT: {fileID: 0}
   _tweenDuration: 0.1
   _tweenSize: {x: 379, y: 395}
   _originalSize: {x: 329, y: 345}
   _animationSpeed: 0.25
-  _animator: {fileID: 0}
 --- !u!95 &4586218784441430036
 Animator:
   serializedVersion: 5
@@ -108,7 +107,7 @@ Animator:
   m_GameObject: {fileID: 8281004522381083403}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 622671ce53da044daa4feb22ca6ce03c, type: 2}
+  m_Controller: {fileID: 9100000, guid: f7e91b1b3769ae34fbaaaa552e8183ee, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
