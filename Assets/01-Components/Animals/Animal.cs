@@ -66,6 +66,11 @@ public partial class Animal : MonoBehaviour
             yield return new WaitForSeconds(10);
         }
     }
+
+    public void DestroyAnimal()
+    {
+        Destroy(this.gameObject);
+    }
 }
 
 

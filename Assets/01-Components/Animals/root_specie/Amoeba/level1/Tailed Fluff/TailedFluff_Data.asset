@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: TailedFluff_Data
   m_EditorClassIdentifier: 
   nextPossibleAnimalDatas: []
+  animal: {fileID: 3052944795035452747, guid: 098875d163a2040f9bfd850aeaa8deff, type: 3}
   objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
   sprite: {fileID: 21300000, guid: b50df923791174f238d73d9dfca1b36b, type: 3}
+  maxInstanceCount: 4
+  neededClickToClone: 20
