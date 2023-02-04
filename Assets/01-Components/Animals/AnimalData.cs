@@ -10,6 +10,8 @@ public class AnimalData : ScriptableObject
     public ObjectsOnClick objectsOnClick_prefab;
     public Sprite sprite;
 
+    public AnimationClip animationClip;
+
     public int maxInstanceCount;
     public int neededClickToClone;
 }
