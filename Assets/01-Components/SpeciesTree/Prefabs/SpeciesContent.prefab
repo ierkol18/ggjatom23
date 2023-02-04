@@ -25,7 +25,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4781809997142132495}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -118,6 +118,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Gym Bro - The creature seems to have gained a significant amount of
+        weight. Its whole body is bigger now. Its arms and legs are thicker too.
+        I don't really know what to say but... this guy goes to gym.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -132,7 +138,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (8)
+      value: 4_add_muscle
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -240,6 +246,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Spiky Balloon - Okay, I was not expecting this. At all. What to call
+        this thing? Spiky balloon seems fitting.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -254,7 +265,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (20)
+      value: 5_add_teeth
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -362,6 +373,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Giraffipede - This one is weirder. Another extension emerged from its
+        body but this one is different than the leg-like limbs. It is so long, like
+        a giraffe's neck.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -376,7 +393,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (12)
+      value: 4_add_neck
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -484,6 +501,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 33.65
@@ -498,7 +519,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (14)
+      value: 5_add_fire
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -591,7 +612,7 @@ PrefabInstance:
     - target: {fileID: 7653603284628749632, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: specimenData
       value: 
-      objectReference: {fileID: 11400000, guid: 9c9a35789d884e34ab3a9e2be51c76d9, type: 2}
+      objectReference: {fileID: 11400000, guid: 7e036ef99b9dce048a51f0d46ae6aca6, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c45e9c4d2b101364286b66384440f338, type: 3}
 --- !u!224 &4642076047750703060 stripped
@@ -606,6 +627,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end. (add feet copy??)
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -620,7 +645,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (34)
+      value: 6_add_feet
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -728,6 +753,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -742,7 +771,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (9)
+      value: 5_add_air
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -850,6 +879,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Sepia - Still looks like an octopus but it has a brighter color.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -864,7 +897,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (19)
+      value: 4_add_skill
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -972,6 +1005,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -986,7 +1023,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (24)
+      value: 6_add_wing
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -1094,6 +1131,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Aquataur - Mermaid's tail changed somehow. It looks like a bunch of
+        seahorses are bound to its body. Like a centaur but an underwater one.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -1108,7 +1150,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (18)
+      value: 4_add_horse
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -1216,6 +1258,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 37.7
@@ -1230,7 +1276,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (7)
+      value: 4_add_oxygen_1
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -1338,6 +1384,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Walking Fluff - Seems like the fluff is not simply a fluff anymore.
+        It has legs coming out of its body. I guess it can move around now. Is it
+        becoming more like a human now?
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -1352,7 +1404,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (17)
+      value: 2_add_leg
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -1460,6 +1512,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -1474,7 +1530,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (22)
+      value: 5_add_voice_1
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -1582,6 +1638,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: EVEN. MORE. LEGS.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 51.2
@@ -1596,7 +1656,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (11)
+      value: 4_add_more_more_legs
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -1704,6 +1764,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -1718,7 +1782,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (23)
+      value: 6_add_snake
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -1826,6 +1890,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: "Dead end (ata d\xF6n\xFC\u015Fme copy?)"
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -1840,7 +1908,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (28)
+      value: 5_add_jorse
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -1948,6 +2016,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Mermaid - The creature has an upper body now. It looks like a human
+        but still has the tail. I think it's safe to say that this is a mermaid.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -1962,7 +2035,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (3)
+      value: 3_add_upper_body_1
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -2070,6 +2143,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -2084,7 +2161,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (10)
+      value: 5_add_fire
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -2192,6 +2269,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: 'Tailed Fluff - Wow! The prettier fluffball has a tail! At least I think
+        it''s a tail because there''s no way I can be sure which part of the creature
+        the tail is emerging from. '
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -2206,7 +2289,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (2)
+      value: 2_add_tail
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -2314,6 +2397,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: sepia copy??
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -2328,7 +2415,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (25)
+      value: 4_add_skill
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -2436,6 +2523,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Humanoid Creature - There are 2 more extensions coming out of the creature's
+        body now. It is both exciting and frightening to say that it is looking quite
+        similar to me. To a human. Arms and legs.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 42.45
@@ -2450,7 +2543,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (6)
+      value: 3_add_arms
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -2558,6 +2651,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Siren - Amazing. The mermaid can speak now. It does not only speak,
+        it sings too! And it sounds great. Enchanting, even...
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -2572,7 +2670,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (20)
+      value: 4_add_voice_1
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -2680,6 +2778,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 57.6
@@ -2694,7 +2796,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (13)
+      value: 4_add_mooooorrrrreeee_legs_1
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -2802,6 +2904,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -2816,7 +2922,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (15)
+      value: 5_add_color
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -2924,6 +3030,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -2938,7 +3048,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (32)
+      value: 6_add_feet
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -3046,6 +3156,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Octoboost - This is still an octopus I guess but it turned out to be
+        a gigantic one.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -3060,7 +3175,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (21)
+      value: 4_add_boyut
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -3168,6 +3283,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Ever-touching Octoboost - Things are getting scarier. Octoboost has
+        hand-like claws. As if it was not already terrifying enough with its huge
+        tentacles, now it gets to grab things with its hands.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -3182,7 +3303,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (29)
+      value: 5_add_hand
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -3290,6 +3411,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -3304,7 +3429,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (33)
+      value: 6_add_volume
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -3412,6 +3537,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Octopus - Well, I'm pretty sure this is an octopus.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -3426,7 +3555,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (5)
+      value: 3_add_tail
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -3534,6 +3663,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Ever-seeing Octoboost - The gigantic octopus has a gigantic eye as well.
+        At least there is only one of them, in the middle of its head.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -3548,7 +3682,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (30)
+      value: 5_add_eye
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -3656,6 +3790,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Sandipede - I can't really count how many but there are SO MANY EXTENSIONS
+        NOW! There were only 2. Now it has a lot more leg-like limbs.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -3674,7 +3813,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (4)
+      value: 3_add_more_legs
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -3782,6 +3921,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -3796,7 +3939,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (16)
+      value: "5_add_parlakl\u0131k"
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -3904,6 +4047,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -3918,7 +4065,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (27)
+      value: 5_add_jorse
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -4026,6 +4173,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -4040,7 +4191,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (31)
+      value: 6_add_love
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -4148,6 +4299,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Prettier Amoeba - Looks a lot like the previous creature but this one
+        seems fluffier and prettier.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 72
@@ -4162,7 +4318,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (1)
+      value: 1_prettier_amoeba_1
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
@@ -4270,6 +4426,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 4781809997142132494}
     m_Modifications:
+    - target: {fileID: 1375358222159112512, guid: c45e9c4d2b101364286b66384440f338, type: 3}
+      propertyPath: infoLeft
+      value: Dead end.
+      objectReference: {fileID: 0}
     - target: {fileID: 4393752664921789285, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_fontSize
       value: 32.95
@@ -4284,7 +4444,7 @@ PrefabInstance:
       objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 5451839505251845170, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Name
-      value: Specy (26)
+      value: 5_add_sertles
       objectReference: {fileID: 0}
     - target: {fileID: 5576970456260704269, guid: c45e9c4d2b101364286b66384440f338, type: 3}
       propertyPath: m_Pivot.x
