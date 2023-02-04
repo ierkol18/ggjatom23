@@ -12,6 +12,7 @@ public partial class Animal : MonoBehaviour
     public AnimalData animalData;
     [SerializeField] Image image;
     [SerializeField] RectTransform rectT;
+    
     // --------------TWEENING-------------------- 
     [Header("Animal Tweening")]
     private Sequence _sizeTween;
@@ -53,34 +54,8 @@ public partial class Animal : MonoBehaviour
         }
     }
 
-/*
-    public void OnPointerClick(PointerEventData eventData)
-    {
-    
-        GameManager.instance.onClick();
-        StartCoroutine(onObjectClicked());
-    
-        if(animalData.neededClickToClone == GameManager.instance.clickCounter)
-        {
-            Animal newAnimal = Instantiate(this, rectT);
-        }
-        
-        tweenAnimalImage();
-    }
-*/
-    IEnumerator onObjectClicked()
-    {
-        ObjectsOnClick ooc = Instantiate(animalData.objectsOnClick_prefab, transform);
-        Vector2 mousePos;
-        if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectT, Input.mousePosition, null, out mousePos))
-        {
-            ooc.gameObject.transform.position = rectT.TransformPoint(mousePos);
-        }
-        yield return new WaitForSeconds(0.8f);
 
-        Destroy(ooc.gameObject);
-
-    }
+ 
 
     private void tweenAnimalImage()
     {
