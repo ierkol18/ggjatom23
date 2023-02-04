@@ -90,9 +90,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad02facb87574520ac868e43f98c4c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalData: {fileID: 11400000, guid: 2d3aa71076d2548f98c7e6c3e8915143, type: 2}
+  specimenData: {fileID: 11400000, guid: 5b7f92ab82f6c02409d0c32d53f59489, type: 2}
   image: {fileID: 8281004522381083401}
-  _animalRT: {fileID: 0}
+  _animalRT: {fileID: 8281004522381083402}
   _tweenDuration: 0.1
   _tweenSize: {x: 379, y: 395}
   _originalSize: {x: 329, y: 345}

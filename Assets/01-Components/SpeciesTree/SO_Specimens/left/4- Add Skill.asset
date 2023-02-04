@@ -15,7 +15,14 @@ MonoBehaviour:
   specimenName: Add Skill
   description: Create a sepia
   specimenState: 0
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: 50c77937db2f74a9ab8566bbc0df81e4, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: 4cbb5248ec07db040a6c27c115df7836, type: 2}
+  - {fileID: 11400000, guid: e22e0ca3c7805ad458b9e1079c00a7f2, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 380b28f6bddff5c479cc416c69c59725, type: 2}
+  animal: {fileID: 6208985903057550371, guid: 0067294978bfe5144bb6922b923a556b, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: c656c3319d6b1481e8101805b78b3d3f, type: 3}
+  maxInstanceCount: 2
+  neededClickToClone: 20

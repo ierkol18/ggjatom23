@@ -13,6 +13,13 @@ public class SpecimenData : ScriptableObject
     public SpecimenData[] childSpecimens;
     public SpecimenData[] siblingSpecimens;
 
+    public Animal animal; //bu bir prefab instanceýdýr
+    public ObjectsOnClick objectsOnClick_prefab;
+    public Sprite sprite;
+
+    public int maxInstanceCount;
+    public int neededClickToClone;
+
     public enum State
     {
         LOCKED,

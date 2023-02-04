@@ -15,7 +15,14 @@ MonoBehaviour:
   specimenName: Add Upper Body
   description: Create a Mermaid
   specimenState: 2
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: 67d8e206531e644b6a5af3d140e41c43, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: 21654edaf08b9c941b43cf26613ef3d3, type: 2}
+  - {fileID: 11400000, guid: 4cd44561715b1fc48bca71caee22d623, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: f1211598f65e151438ff6c0633a65fb5, type: 2}
+  animal: {fileID: 8589356122828716168, guid: 12fc56f8e118e4dab8facb0d6913d36e, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: a3d710347753e4d5e8d7fd3d08b4f89b, type: 3}
+  maxInstanceCount: 2
+  neededClickToClone: 20

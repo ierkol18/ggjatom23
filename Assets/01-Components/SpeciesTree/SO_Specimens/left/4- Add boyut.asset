@@ -15,7 +15,14 @@ MonoBehaviour:
   specimenName: Add boyut
   description: Create a octoboost
   specimenState: 0
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: 6dd907dc6efd04d51b3dd235b9a4a7ca, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: f7409ff676145db48bd5d8d178b6eb9e, type: 2}
+  - {fileID: 11400000, guid: 1212f94daa9e78b439ad2128fb2d46ba, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 4bcb178846bd3764dac3e71c124f92d2, type: 2}
+  animal: {fileID: 4757304898141833643, guid: deb02fa1493660e4c9af326e774b1238, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: a8d5b1191ca7843a6924df14b14ff0d2, type: 3}
+  maxInstanceCount: 1
+  neededClickToClone: 10
