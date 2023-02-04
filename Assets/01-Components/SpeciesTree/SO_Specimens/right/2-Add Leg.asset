@@ -15,6 +15,14 @@ MonoBehaviour:
   specimenName: Add Leg
   description: Create a Walking Fluff
   specimenState: 2
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
+  animationClip: {fileID: 7400000, guid: 1191abea55f904ff4b45ab5c7b8ebe52, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: 4f844b5ae1c5f1e46a607e8ad6594794, type: 2}
+  - {fileID: 11400000, guid: 69ee1bf2942c719458a3c9c015cf63c2, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 390e00d09c1991e44bb0facd4933e03a, type: 2}
+  animal: {fileID: 6857357558003108010, guid: 39a6dc9117b1ea04ba1753d5773125e1, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: e64a100f184da4614a97ac5f0333504e, type: 3}
+  maxInstanceCount: 4
+  neededClickToClone: 25

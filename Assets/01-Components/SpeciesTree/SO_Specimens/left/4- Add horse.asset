@@ -15,7 +15,14 @@ MonoBehaviour:
   specimenName: Add horse
   description: Create a aquataur
   specimenState: 0
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: c668dd69cd026474bb41c225e3c3ece4, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: 0c81bde748ebae14ea6f9a13a4e78d81, type: 2}
+  - {fileID: 11400000, guid: 560f84aceb905da498680982068a0c27, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 4cd44561715b1fc48bca71caee22d623, type: 2}
+  animal: {fileID: 4757845662743296500, guid: fc075cc35adf5456497c511df77c1edd, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: ff6de5cc6913d4d35b6b0089e124e4ca, type: 3}
+  maxInstanceCount: 1
+  neededClickToClone: 10

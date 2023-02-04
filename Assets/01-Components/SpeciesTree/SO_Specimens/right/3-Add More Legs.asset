@@ -15,7 +15,14 @@ MonoBehaviour:
   specimenName: Add More Legs
   description: Create a Sandipede
   specimenState: 2
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: 77d806018d3cf444295ce0482e5ff3da, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: a2ddc07fc9acc6243b6de23cac68eb75, type: 2}
+  - {fileID: 11400000, guid: e6a5c4993b9c8aa44aec9315e7ed83ce, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 4f844b5ae1c5f1e46a607e8ad6594794, type: 2}
+  animal: {fileID: 302180136209258514, guid: 59d91c907d1adbf4da4e20e0989b52d6, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: 985e33ddb3304406db0d4f7044826240, type: 3}
+  maxInstanceCount: 3
+  neededClickToClone: 20

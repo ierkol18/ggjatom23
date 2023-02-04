@@ -15,7 +15,14 @@ MonoBehaviour:
   specimenName: Add voice
   description: Create a siren
   specimenState: 0
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: be00454d52b234f0b84a3d12e8af9ff1, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: 0bb3631a00c58ea45add5cd6fcfadbbb, type: 2}
+  - {fileID: 11400000, guid: 78d4218ba3cb0fc4aa4b96bbc0b94f3e, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 21654edaf08b9c941b43cf26613ef3d3, type: 2}
+  animal: {fileID: 2612683856893740505, guid: 2946cd289ae7de34bb2ecc2f454dc4ea, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: 1a57e7f5e8e5847928971b7bff562d9d, type: 3}
+  maxInstanceCount: 2
+  neededClickToClone: 20

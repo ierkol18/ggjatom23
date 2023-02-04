@@ -15,7 +15,14 @@ MonoBehaviour:
   specimenName: Add Arms
   description: Create a Humanoid
   specimenState: 0
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: 1f0c4cff29da541e1b8542485c72e341, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: f9f00320dab774d4083cf0d2aa57fc09, type: 2}
+  - {fileID: 11400000, guid: 603720db4801e0a4c92156016a1e94a6, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 69ee1bf2942c719458a3c9c015cf63c2, type: 2}
+  animal: {fileID: 6859703759628499344, guid: ce6d3707dd782d743be075f8e1466fd9, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: 56ca50e64b8c149fcb3fcdd690c41743, type: 3}
+  maxInstanceCount: 3
+  neededClickToClone: 20
