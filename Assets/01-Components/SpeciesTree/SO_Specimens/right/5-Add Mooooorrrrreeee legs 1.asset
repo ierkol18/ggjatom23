@@ -10,9 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e0815de5ae2170478b2fdb2ea75ad7f, type: 3}
-  m_Name: Mahmut_Kayis
+  m_Name: 5-Add Mooooorrrrreeee legs 1
   m_EditorClassIdentifier: 
-  specimenName: Mahmut Kayis
-  description: Anadolu Ormanlarinda yasiyan cok killi ve maymunsu bir specimen. Barbar
-    olmasi ve koyleri yagmalamasiyla bilinir.
+  specimenName: Add Mooooorrrrreeee legs
+  description: Create a ugly long things
   specimenState: 2
