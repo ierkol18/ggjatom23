@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5569136427374780231}
   - component: {fileID: 5569136427374780230}
   - component: {fileID: 5569136427374780232}
+  - component: {fileID: 4497084011705663012}
   m_Layer: 5
   m_Name: Animal_1
   m_TagString: Untagged
@@ -91,3 +92,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animalData: {fileID: 11400000, guid: 2d3aa71076d2548f98c7e6c3e8915143, type: 2}
   image: {fileID: 5569136427374780230}
+  rectT: {fileID: 0}
+  _tweenDuration: 0.5
+  _tweenSize: {x: 600, y: 600}
+  _originalSize: {x: 500, y: 500}
+--- !u!95 &4497084011705663012
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5569136427374780228}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f530de585fac8e8408d4d9294e22f7f2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
