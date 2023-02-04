@@ -135,10 +135,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b7fc770dc2d18b04aa0defb81aaadf76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  specimenData: {fileID: 0}
-  LockedMaterial: {fileID: 2100000, guid: 08fb76c2067089c45b1d04b1856055aa, type: 2}
-  DisabledMaterial: {fileID: 2100000, guid: 1b6f5d45c3e47bb4aa17565d06c52499, type: 2}
-  ActivatedMaterial: {fileID: 2100000, guid: 97d9369f332d761419ed955ac6f8a0d3, type: 2}
+  specimenData: {fileID: 11400000, guid: 9e6147ba44978df44b885689f93795b1, type: 2}
+  LockedMaterial: {fileID: -7880351768874537155, guid: ff23feeb9a3c3db439aa36d2a04e0aa2, type: 2}
+  DisabledMaterial: {fileID: -7880351768874537155, guid: d9288f375f11ab24d99d475ccc74c008, type: 2}
+  ActivatedMaterial: {fileID: -7880351768874537155, guid: 779076b92e25b3c438ba58dcb5bb0d4a, type: 2}
 --- !u!1 &7170438189607473332
 GameObject:
   m_ObjectHideFlags: 0
