@@ -290,6 +290,10 @@ PrefabInstance:
       propertyPath: rectT
       value: 
       objectReference: {fileID: 1909094027}
+    - target: {fileID: 5569136427374780232, guid: 0446fed9cfe544924b0760f5c29ad0cb, type: 3}
+      propertyPath: _tweenDuration
+      value: 0.21
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0446fed9cfe544924b0760f5c29ad0cb, type: 3}
 --- !u!224 &260892901 stripped
