@@ -22,7 +22,7 @@ public partial class Animal : MonoBehaviour, IPointerClickHandler
     // --------------ANIMATION-------------------
     [Header("Animal Animation Settings")]
     [SerializeField] private float _animationSpeed = .25f;
-    [SerializeField] private Animator _animator;
+    private Animator _animator;
     private AnimationClip currentAnimationClip;
     public static Action<AnimationClip> onAnimationChange;
     // ------------------------------------------
