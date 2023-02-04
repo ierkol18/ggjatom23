@@ -9,8 +9,8 @@ public class UICanvas : MonoBehaviour
     public RectTransform rectT => transform as RectTransform;
     private Animal currentAnimal;
     public static UICanvas instance { get; private set; }
-    List<Animal> currentAnimalsOnScreen = new List<Animal>();
-
+    public List<Animal> currentAnimalsOnScreen = new List<Animal>();
+    bool isDestroying = false;
     private void Awake()
     {
         if (instance == null)
@@ -25,6 +25,7 @@ public class UICanvas : MonoBehaviour
     public void Prepare(Animal animal)
     {
         currentAnimal = animal;
+        UICanvas.instance.currentAnimalsOnScreen.Add(GameManager.instance.currentAnimal);
     }
 
     public void Update()
@@ -48,10 +49,27 @@ public class UICanvas : MonoBehaviour
                         newAnimal.gameObject.transform.position = rectT.TransformPoint(mousePos);
                     }
                 }
+                else
+                {
+                    DestroyAll();
+                    GameManager.instance.currentAnimal = GameManager.instance.currentAnimal.animalData.nextPossibleAnimalDatas[0].animal;
+                    Debug.Log(GameManager.instance.currentAnimal);
+                }
             }
         }
        
         tweenAnimalImage();
+    }
+
+    private void DestroyAll()
+    {
+        if(isDestroying == false)
+        {
+            isDestroying = true;
+            for (int i = 0; i < currentAnimalsOnScreen.Count; i++)
+                currentAnimalsOnScreen[i].DestroyAnimal();
+        }
+        
     }
 
     IEnumerator onObjectClicked()
