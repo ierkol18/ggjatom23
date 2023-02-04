@@ -14,4 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add voice
   description: Create a bagiran kus plus fish
-  specimenState: 2
+  specimenState: 0
+  animationClip: {fileID: 0}
+  childSpecimens: []
+  siblingSpecimens: []
+  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
