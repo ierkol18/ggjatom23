@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -50,7 +51,7 @@ public class UICanvas : MonoBehaviour
             }
         }
        
-        //tweenAnimalImage();
+        tweenAnimalImage();
     }
 
     IEnumerator onObjectClicked()
@@ -66,7 +67,15 @@ public class UICanvas : MonoBehaviour
         Destroy(ooc.gameObject);
 
     }
-    
-    
+
+
+    private void tweenAnimalImage()
+    {
+            
+        currentAnimal._animalRT.DOSizeDelta(currentAnimal._tweenSize,currentAnimal. _tweenDuration)
+        .SetEase(Ease.OutCubic)
+        .OnStepComplete(() => currentAnimal._animalRT.DOSizeDelta(currentAnimal._originalSize, currentAnimal._tweenDuration).SetEase(Ease.InCubic));
+    }
+
 
 }

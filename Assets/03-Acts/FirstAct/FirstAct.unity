@@ -550,8 +550,6 @@ MonoBehaviour:
   stageChooserGO: {fileID: 1552056382}
   playButton: {fileID: 1467876658}
   animator: {fileID: 1784328643}
-  rootAnimalPrefab: {fileID: 8281004522381083399, guid: b63fcdd9bd77c4e7eb0382f70a43c5ef, type: 3}
-  canvas: {fileID: 0}
 --- !u!95 &1784328643
 Animator:
   serializedVersion: 5
