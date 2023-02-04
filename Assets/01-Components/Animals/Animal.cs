@@ -1,29 +1,56 @@
 using DG.Tweening;
+using System;
 using System.Collections;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class Animal : MonoBehaviour, IPointerClickHandler
+public partial class Animal : MonoBehaviour, IPointerClickHandler
 {
-
+    // --------------DATA------------------------ 
+    [Header("Animal Data")]
     public AnimalData animalData;
     [SerializeField] Image image;
     [SerializeField] RectTransform rectT;
     // --------------TWEENING-------------------- 
+    [Header("Animal Tweening")]
     private Sequence _sizeTween;
     private RectTransform _animalRT;
     [SerializeField] private float _tweenDuration = 0.5f;
     [SerializeField] private Vector2 _tweenSize = new Vector2(600f, 600f);
     [SerializeField] private Vector2 _originalSize = new Vector2(500f, 500f);
-
+    // --------------ANIMATION-------------------
+    [Header("Animal Animation Settings")]
+    [SerializeField] private float _animationSpeed = .25f;
+    [SerializeField] private Animator _animator;
+    private AnimationClip currentAnimationClip;
+    public static Action<AnimationClip> onAnimationChange;
     // ------------------------------------------
+    public static void Fire_onAnimationChange(AnimationClip anim) { onAnimationChange?.Invoke(anim); }
+    
+    private void Awake()
+    {
+        _animator = transform.GetComponent<Animator>();
+        _animator.speed = _animationSpeed;
+        onAnimationChange += OnAnimationChange;
+    }
 
     void Start()
     {
         image.sprite = animalData.sprite;
         DOTween.Init(true, true, LogBehaviour.Verbose).SetCapacity(200, 10); // Dotween initialized for the first time to adding bounce effect when clicked.
         _animalRT = GetComponent<RectTransform>(); // Getting the rect transform of the animal sprite.
+
+        currentAnimationClip = _animator.GetCurrentAnimatorClipInfo(0)[0].clip;
+    }
+    
+    public void OnAnimationChange(AnimationClip anim)
+    {
+        if (anim != currentAnimationClip)
+        {
+            currentAnimationClip = anim;
+            _animator.Play(anim.name, 0, 0f);
+        }
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -55,8 +82,6 @@ public class Animal : MonoBehaviour, IPointerClickHandler
         _animalRT.DOSizeDelta(_tweenSize, _tweenDuration)
             .SetEase(Ease.OutCubic)
             .OnStepComplete(() => _animalRT.DOSizeDelta(_originalSize, _tweenDuration).SetEase(Ease.InCubic));
-        
-        //    .SetLoops(1, LoopType.Yoyo);
     }
 
 }
