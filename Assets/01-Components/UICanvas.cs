@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class UICanvas : MonoBehaviour
 {
+    [SerializeField] private PauseSettings ps;
+    [SerializeField] private Button pauseButon;
     public RectTransform rectT => transform as RectTransform;
     private Animal currentAnimal;
     public static UICanvas instance { get; private set; }
@@ -37,6 +40,12 @@ public class UICanvas : MonoBehaviour
             GameManager.instance.onClick();
             StartCoroutine(onObjectClicked());
 
+            if (RectTransformUtility.ScreenPointToLocalPointInRectangle(pauseButon.GetComponent<RectTransform>(), Input.mousePosition, null, out mousePos))
+            {
+                Debug.Log("Market button pressed0");
+                Instantiate(ps, UICanvas.instance.rectT);
+                GameManager.instance.gameOn = false;
+            }
             if (currentAnimal.animalData.neededClickToClone <= GameManager.instance.clickCounter)
             {
                 if(currentAnimalsOnScreen.Count < currentAnimal.animalData.maxInstanceCount)

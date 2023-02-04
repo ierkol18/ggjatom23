@@ -1,17 +1,21 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    
     public static GameManager instance { get; private set; }
     public bool gameOn;
 
     public Animal currentAnimal;
 
+    
     public int clickCounter = 0;
     public int autoClickPerSecond = 1;
     public int pointPerClick;
-
+    
+    
 
     private void Start()
     {
@@ -33,6 +37,8 @@ public class GameManager : MonoBehaviour
     {
         clickCounter += pointPerClick;
     }
+
+    
 
     IEnumerator ClickPerSecond()
     {
