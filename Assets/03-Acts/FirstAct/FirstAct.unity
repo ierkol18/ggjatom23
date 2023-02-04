@@ -550,6 +550,8 @@ MonoBehaviour:
   stageChooserGO: {fileID: 1552056382}
   playButton: {fileID: 1467876658}
   animator: {fileID: 1784328643}
+  rootAnimalPrefab: {fileID: 8281004522381083399, guid: b63fcdd9bd77c4e7eb0382f70a43c5ef, type: 3}
+  canvas: {fileID: 0}
 --- !u!95 &1784328643
 Animator:
   serializedVersion: 5
@@ -615,9 +617,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOn: 0
+  currentAnimal: {fileID: 0}
   clickCounter: 0
   autoClickPerSecond: 1
-  pointPerClick: 0
+  pointPerClick: 1
 --- !u!1 &1909094023
 GameObject:
   m_ObjectHideFlags: 0

@@ -16,7 +16,6 @@ public class StageChooser : MonoBehaviour
 
     private void OpenSeaScene()
     {
-        Debug.Log("Girdi");
         SceneManager.LoadSceneAsync(sceneName: "SeaScene");
     }
 
