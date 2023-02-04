@@ -13,7 +13,7 @@ public class SpecimenData : ScriptableObject
     public SpecimenData[] childSpecimens;
     public SpecimenData[] siblingSpecimens;
 
-    public Animal animal;
+    public Animal animal; //bu bir prefab instanceýdýr
     public ObjectsOnClick objectsOnClick_prefab;
     public Sprite sprite;
 

@@ -13,9 +13,16 @@ MonoBehaviour:
   m_Name: 5- Add teeth
   m_EditorClassIdentifier: 
   specimenName: Add teeth
-  description: Create a ugly teeth things
+  description: Create a spiky balloon
   specimenState: 0
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: e82a459505f7f440ea1c5f93794aa87a, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: 05ab6a3ff64a9484eb547d2be860b9c4, type: 2}
+  - {fileID: 11400000, guid: 40d82a4e74db0804980d4c1b9921aa2e, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 78d4218ba3cb0fc4aa4b96bbc0b94f3e, type: 2}
+  animal: {fileID: 2486935259075585462, guid: 03ed3dad9e22f954499ea77e73dcf576, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: b9912e05a3bc94572a549089cf21dab8, type: 3}
+  maxInstanceCount: 2
+  neededClickToClone: 20

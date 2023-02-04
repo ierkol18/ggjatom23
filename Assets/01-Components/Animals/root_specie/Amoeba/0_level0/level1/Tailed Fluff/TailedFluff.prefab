@@ -90,9 +90,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aad02facb87574520ac868e43f98c4c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animalData: {fileID: 11400000, guid: 2d3aa71076d2548f98c7e6c3e8915143, type: 2}
+  specimenData: {fileID: 11400000, guid: 7899dacef71315f4995db99439d3ac19, type: 2}
   image: {fileID: 3052944795035452741}
-  rectT: {fileID: 0}
+  _animalRT: {fileID: 3052944795035452742}
+  _tweenDuration: 0.5
+  _tweenSize: {x: 901, y: 730}
+  _originalSize: {x: 851, y: 680}
+  _animationSpeed: 0.25
 --- !u!95 &7428600788986902104
 Animator:
   serializedVersion: 5

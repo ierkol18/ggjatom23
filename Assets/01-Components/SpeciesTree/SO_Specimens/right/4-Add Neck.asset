@@ -15,7 +15,14 @@ MonoBehaviour:
   specimenName: Add Neck
   description: Create a Giraffipede
   specimenState: 0
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: 63a482a82e9db504fac396ac755ae6b4, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: 6d05e989caf4df64f8a09244706d94b7, type: 2}
+  - {fileID: 11400000, guid: 0fb8e6ed5a4aa9e468922414f71fe1a2, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: a2ddc07fc9acc6243b6de23cac68eb75, type: 2}
+  animal: {fileID: 658031423216710820, guid: 9d24a0a59e55dd6499caa323652b3943, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: f2b702faf775f494bb4e1aa8c71e3945, type: 3}
+  maxInstanceCount: 4
+  neededClickToClone: 20

@@ -15,7 +15,14 @@ MonoBehaviour:
   specimenName: Add hand
   description: Create a Ever-Touching
   specimenState: 0
-  animationClip: {fileID: 0}
-  childSpecimens: []
-  siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animationClip: {fileID: 7400000, guid: 1edc02cc2945643c3aa6d6408034565f, type: 2}
+  childSpecimens:
+  - {fileID: 11400000, guid: 7540ba78cefe975449ee07af85b98eaa, type: 2}
+  - {fileID: 11400000, guid: 3471f40c06cdafc4881c8764e1cacb86, type: 2}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: f7409ff676145db48bd5d8d178b6eb9e, type: 2}
+  animal: {fileID: 8550614036251562673, guid: 1321c1e55ebaf8c469d006a64d72cb45, type: 3}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: 998dc5327398a41be8352da9697c28fd, type: 3}
+  maxInstanceCount: 2
+  neededClickToClone: 20

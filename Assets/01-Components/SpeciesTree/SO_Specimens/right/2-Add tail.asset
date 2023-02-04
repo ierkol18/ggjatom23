@@ -19,4 +19,8 @@ MonoBehaviour:
   childSpecimens:
   - {fileID: 11400000, guid: 69ee1bf2942c719458a3c9c015cf63c2, type: 2}
   siblingSpecimens: []
-  buyImages: {fileID: 11400000, guid: cd8b94aa89c36164eb4bc5e3a893eeef, type: 2}
+  animal: {fileID: 0}
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 0}
+  maxInstanceCount: 4
+  neededClickToClone: 20
