@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1503819399752747502
+--- !u!1 &8281004522381083403
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,33 +8,25 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-<<<<<<< Updated upstream:Assets/01-Components/Animals/level1/Animal_1.prefab
-  - component: {fileID: 5569136427374780229}
-  - component: {fileID: 5569136427374780231}
-  - component: {fileID: 5569136427374780230}
-  - component: {fileID: 5569136427374780232}
-  - component: {fileID: 4497084011705663012}
-=======
-  - component: {fileID: 1503819399752747503}
-  - component: {fileID: 1503819399752747501}
-  - component: {fileID: 1503819399752747500}
-  - component: {fileID: 1503819399752747490}
-  - component: {fileID: 6455681179641051889}
->>>>>>> Stashed changes:Assets/01-Components/Animals/root_specie/Amoeba/Amoeba.prefab
+  - component: {fileID: 8281004522381083402}
+  - component: {fileID: 8281004522381083400}
+  - component: {fileID: 8281004522381083401}
+  - component: {fileID: 8281004522381083399}
+  - component: {fileID: 4586218784441430036}
   m_Layer: 5
-  m_Name: Amoeba
+  m_Name: Amobea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1503819399752747503
+--- !u!224 &8281004522381083402
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503819399752747502}
+  m_GameObject: {fileID: 8281004522381083403}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -46,23 +38,23 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 329, y: 345}
+  m_SizeDelta: {x: 851, y: 680}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1503819399752747501
+--- !u!222 &8281004522381083400
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503819399752747502}
+  m_GameObject: {fileID: 8281004522381083403}
   m_CullTransparentMesh: 1
---- !u!114 &1503819399752747500
+--- !u!114 &8281004522381083401
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503819399752747502}
+  m_GameObject: {fileID: 8281004522381083403}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -86,48 +78,37 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &1503819399752747490
+--- !u!114 &8281004522381083399
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1503819399752747502}
+  m_GameObject: {fileID: 8281004522381083403}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: aad02facb87574520ac868e43f98c4c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   animalData: {fileID: 11400000, guid: 2d3aa71076d2548f98c7e6c3e8915143, type: 2}
-<<<<<<< Updated upstream:Assets/01-Components/Animals/level1/Animal_1.prefab
-  image: {fileID: 5569136427374780230}
+  image: {fileID: 8281004522381083401}
   rectT: {fileID: 0}
-  _tweenDuration: 0.5
-  _tweenSize: {x: 600, y: 600}
-  _originalSize: {x: 500, y: 500}
---- !u!95 &4497084011705663012
-=======
-  image: {fileID: 1503819399752747500}
-  rectT: {fileID: 0}
---- !u!95 &6455681179641051889
->>>>>>> Stashed changes:Assets/01-Components/Animals/root_specie/Amoeba/Amoeba.prefab
+  _tweenDuration: 0.1
+  _tweenSize: {x: 379, y: 395}
+  _originalSize: {x: 329, y: 345}
+  _animationSpeed: 0.25
+  _animator: {fileID: 0}
+--- !u!95 &4586218784441430036
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-<<<<<<< Updated upstream:Assets/01-Components/Animals/level1/Animal_1.prefab
-  m_GameObject: {fileID: 5569136427374780228}
+  m_GameObject: {fileID: 8281004522381083403}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f530de585fac8e8408d4d9294e22f7f2, type: 2}
-=======
-  m_GameObject: {fileID: 1503819399752747502}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: af0b2bb357e3c47bcbee67575eb4d5e4, type: 2}
->>>>>>> Stashed changes:Assets/01-Components/Animals/root_specie/Amoeba/Amoeba.prefab
+  m_Controller: {fileID: 9100000, guid: 622671ce53da044daa4feb22ca6ce03c, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
