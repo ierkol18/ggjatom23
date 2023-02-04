@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 97000374f79234496b67c8811e049908, type: 3}
+  m_Name: TailedFluff_Data
+  m_EditorClassIdentifier: 
+  nextPossibleAnimalDatas: []
+  objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
+  sprite: {fileID: 21300000, guid: b50df923791174f238d73d9dfca1b36b, type: 3}
