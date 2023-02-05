@@ -39,6 +39,7 @@ public class UICanvas : MonoBehaviour
             GameManager.instance.gameOn = false;
             isHoldingMarketButton = true;
         });
+        
 
     }
 
@@ -76,7 +77,7 @@ public class UICanvas : MonoBehaviour
             }
         }
        
-        tweenAnimalImage();
+        Animal.Fire_onTween();
         scoreTMP.text = GameManager.instance.clickCounter.ToString();
 
     }
@@ -107,13 +108,7 @@ public class UICanvas : MonoBehaviour
     }
 
 
-    private void tweenAnimalImage()
-    {
-            
-        currentAnimal._animalRT.DOSizeDelta(currentAnimal._tweenSize,currentAnimal. _tweenDuration)
-        .SetEase(Ease.OutCubic)
-        .OnStepComplete(() => currentAnimal._animalRT.DOSizeDelta(currentAnimal._originalSize, currentAnimal._tweenDuration).SetEase(Ease.InCubic));
-    }
+   
 
     public void OnPointerEnter(PointerEventData eventData)
     {
