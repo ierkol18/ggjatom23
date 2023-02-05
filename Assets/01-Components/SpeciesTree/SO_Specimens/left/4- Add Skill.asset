@@ -18,7 +18,7 @@ MonoBehaviour:
   animationClip: {fileID: 7400000, guid: 50c77937db2f74a9ab8566bbc0df81e4, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 4cbb5248ec07db040a6c27c115df7836, type: 2}
-  - {fileID: 11400000, guid: e22e0ca3c7805ad458b9e1079c00a7f2, type: 2}
+  - {fileID: 11400000, guid: bb11376c33487de468c6bae574a7c7a8, type: 2}
   siblingSpecimens:
   - {fileID: 11400000, guid: 380b28f6bddff5c479cc416c69c59725, type: 2}
   animal: {fileID: 6208985903057550371, guid: 0067294978bfe5144bb6922b923a556b, type: 3}
