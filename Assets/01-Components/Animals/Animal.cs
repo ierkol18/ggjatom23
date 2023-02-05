@@ -1,6 +1,7 @@
 using DG.Tweening;
 using System;
 using System.Collections;
+using UnityEditor.Animations;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -27,6 +28,8 @@ public partial class Animal : MonoBehaviour
     private Animator _animator;
     private AnimationClip currentAnimationClip;
     public static Action<AnimationClip> onAnimationChange;
+    private string currentAnimaton;
+
     // ------------------------------------------
     public static void Fire_onAnimationChange(AnimationClip anim) { onAnimationChange?.Invoke(anim); }
     
@@ -44,8 +47,9 @@ public partial class Animal : MonoBehaviour
         DOTween.Init(true, true, LogBehaviour.Verbose).SetCapacity(200, 10); // Dotween initialized for the first time to adding bounce effect when clicked.
         _animalRT = GetComponent<RectTransform>(); // Getting the rect transform of the animal sprite.
         currentAnimationClip = specimenData.animationClip;
-        _animator.Play(currentAnimationClip.name, 0, 0f);
-
+        
+        ChangeAnimationState(specimenData.animationClip.name);
+        
         StartCoroutine(MoveImage());
         //currentAnimationClip = _animator.GetCurrentAnimatorClipInfo(0)[0].clip;
     }
@@ -78,8 +82,15 @@ public partial class Animal : MonoBehaviour
             yield return new WaitForSeconds(10);
         }
     }
-    
 
+    void ChangeAnimationState(string newAnimation)
+    {
+        if (currentAnimaton == newAnimation) return;
+
+        _animator.Play(newAnimation);
+        Debug.Log("played new animation: " + newAnimation);
+        currentAnimaton = newAnimation;
+    }
     public void DestroyAnimal()
     {
         Destroy(this.gameObject);
