@@ -22,4 +22,5 @@ MonoBehaviour:
   objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
   sprite: {fileID: 0}
   maxInstanceCount: 0
-  neededClickToClone: 0
+  neededClickToClone: 20
+  price: 200

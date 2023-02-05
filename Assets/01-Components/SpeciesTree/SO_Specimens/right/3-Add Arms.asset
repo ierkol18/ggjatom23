@@ -26,3 +26,4 @@ MonoBehaviour:
   sprite: {fileID: 21300000, guid: 56ca50e64b8c149fcb3fcdd690c41743, type: 3}
   maxInstanceCount: 3
   neededClickToClone: 20
+  price: 150
