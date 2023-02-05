@@ -44,7 +44,7 @@ public partial class Animal : MonoBehaviour
         DOTween.Init(true, true, LogBehaviour.Verbose).SetCapacity(200, 10); // Dotween initialized for the first time to adding bounce effect when clicked.
         _animalRT = GetComponent<RectTransform>(); // Getting the rect transform of the animal sprite.
         currentAnimationClip = specimenData.animationClip;
-        OnAnimationChange(currentAnimationClip);
+        _animator.Play(currentAnimationClip.name, 0, 0f);
 
         StartCoroutine(MoveImage());
         //currentAnimationClip = _animator.GetCurrentAnimatorClipInfo(0)[0].clip;
@@ -55,7 +55,7 @@ public partial class Animal : MonoBehaviour
        // if (anim != currentAnimationClip)
         //{
             //currentAnimationClip = anim;
-            _animator.Play(anim.name, 0, 0f);
+           // _animator.Play(anim.name, 0, 0f);
        // }
     }
 
