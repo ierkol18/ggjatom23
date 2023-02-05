@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add boyut
   description: Create a octoboost
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: 6dd907dc6efd04d51b3dd235b9a4a7ca, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: f7409ff676145db48bd5d8d178b6eb9e, type: 2}

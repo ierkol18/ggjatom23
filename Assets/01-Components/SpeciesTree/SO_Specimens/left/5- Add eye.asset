@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add eye
   description: Create a Ever-seeing
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: 8d532a33d4d1c4e9b80643236c979c1c, type: 2}
   childSpecimens:
   - {fileID: 0}

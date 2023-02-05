@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add snake
   description: Create aworld dominantion
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []

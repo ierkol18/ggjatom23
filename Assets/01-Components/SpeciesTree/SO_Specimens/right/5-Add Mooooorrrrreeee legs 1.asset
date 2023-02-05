@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Mooooorrrrreeee legs
   description: Create a ugly long things
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []

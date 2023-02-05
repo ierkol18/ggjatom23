@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Tail
   description: Create a Tailed Fluff
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: 7a4a86546d8d9412c998babab0e0d9de, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 8494240df9ee95e478460cbeb8c566dd, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Arms
   description: Create a Humanoid
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: 1f0c4cff29da541e1b8542485c72e341, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: f9f00320dab774d4083cf0d2aa57fc09, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add color
   description: "s\u0131ct\u0131n"
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []

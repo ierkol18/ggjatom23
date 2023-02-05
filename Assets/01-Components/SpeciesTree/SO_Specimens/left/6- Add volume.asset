@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add volume
   description: Create a too big for ocean
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []

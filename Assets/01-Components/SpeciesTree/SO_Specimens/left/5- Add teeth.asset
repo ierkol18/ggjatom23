@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add teeth
   description: Create a spiky balloon
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: e82a459505f7f440ea1c5f93794aa87a, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 05ab6a3ff64a9484eb547d2be860b9c4, type: 2}

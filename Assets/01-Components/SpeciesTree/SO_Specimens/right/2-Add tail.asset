@@ -14,11 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Tail
   description: Create a Tailed Fluff
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 0}
   childSpecimens:
   - {fileID: 11400000, guid: 69ee1bf2942c719458a3c9c015cf63c2, type: 2}
-  siblingSpecimens: []
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 9e6147ba44978df44b885689f93795b1, type: 2}
   animal: {fileID: 0}
   objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
   sprite: {fileID: 0}
