@@ -10,20 +10,20 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e0815de5ae2170478b2fdb2ea75ad7f, type: 3}
-  m_Name: 1-Prettier Amoeba 1
+  m_Name: 2-Add tail
   m_EditorClassIdentifier: 
-  specimenName: Prettier Amoeba
-  description: create prettier amoeba
-  specimenState: 1
-  animationClip: {fileID: 7400000, guid: b3270d05ea8f4412c9f4e80377e039eb, type: 2}
+  specimenName: Add Tail
+  description: Create a Tailed Fluff
+  specimenState: 0
+  animationClip: {fileID: 7400000, guid: 7a4a86546d8d9412c998babab0e0d9de, type: 2}
   childSpecimens:
-  - {fileID: 11400000, guid: 9e6147ba44978df44b885689f93795b1, type: 2}
-  - {fileID: 11400000, guid: 7899dacef71315f4995db99439d3ac19, type: 2}
-  siblingSpecimens:
   - {fileID: 0}
-  animal: {fileID: 5273519067299604732, guid: cf3f8e7c749994c4aa13378ff5777e4b, type: 3}
+  - {fileID: 0}
+  siblingSpecimens:
+  - {fileID: 11400000, guid: 9e6147ba44978df44b885689f93795b1, type: 2}
+  animal: {fileID: 3052944795035452747, guid: 098875d163a2040f9bfd850aeaa8deff, type: 3}
   objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
-  sprite: {fileID: 21300000, guid: 1bf100f5675bdf0469edabe3a5f43dda, type: 3}
+  sprite: {fileID: 0}
   maxInstanceCount: 4
   neededClickToClone: 20
-  price: 50
+  price: 100

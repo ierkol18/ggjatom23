@@ -10,19 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e0815de5ae2170478b2fdb2ea75ad7f, type: 3}
-  m_Name: 2-Add tail
+  m_Name: 4- Add Skill 1
   m_EditorClassIdentifier: 
-  specimenName: Add Tail
-  description: Create a Tailed Fluff
+  specimenName: Add Skill
+  description: dead end 1 bu
   specimenState: 0
   animationClip: {fileID: 0}
-  childSpecimens:
-  - {fileID: 11400000, guid: 69ee1bf2942c719458a3c9c015cf63c2, type: 2}
+  childSpecimens: []
   siblingSpecimens:
-  - {fileID: 11400000, guid: 9e6147ba44978df44b885689f93795b1, type: 2}
+  - {fileID: 11400000, guid: 4cbb5248ec07db040a6c27c115df7836, type: 2}
   animal: {fileID: 0}
   objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
   sprite: {fileID: 0}
-  maxInstanceCount: 4
+  maxInstanceCount: 2
   neededClickToClone: 20
-  price: 100
+  price: 150

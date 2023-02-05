@@ -453,30 +453,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 394942116}
     m_Modifications:
-    - target: {fileID: 3525999428127572510, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -69.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3525999428127572510, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 338.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3683264670661188049, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: -54.757446
-      objectReference: {fileID: 0}
-    - target: {fileID: 4715834086073362806, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: m_fontSize
-      value: 44.45
-      objectReference: {fileID: 0}
-    - target: {fileID: 4715834086073362806, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: m_fontAsset
-      value: 
-      objectReference: {fileID: 11400000, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
-    - target: {fileID: 4715834086073362806, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: m_sharedMaterial
-      value: 
-      objectReference: {fileID: -7880351768874537155, guid: fb6b5e0a3b67f5340b5c01f606a00ddb, type: 2}
     - target: {fileID: 7027259763103497999, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
       propertyPath: m_Name
       value: SkillTree
@@ -565,21 +541,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7183882201026203301, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 7.088623
-      objectReference: {fileID: 0}
-    - target: {fileID: 8172659431906524772, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: roseBought
-      value: 
-      objectReference: {fileID: 21300000, guid: 93eeaf3d53c280c4dab317f1479ef2fd, type: 3}
-    - target: {fileID: 8172659431906524772, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: roseLocked
-      value: 
-      objectReference: {fileID: 21300000, guid: 8cfff41cbe31ba64a859ca9b80a7d47e, type: 3}
-    - target: {fileID: 8172659431906524772, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: roseBuyable
-      value: 
-      objectReference: {fileID: 21300000, guid: 3e98476db714a01489a5d370490b8213, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
