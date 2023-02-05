@@ -97,6 +97,7 @@ public class SpecimenButton : MonoBehaviour
         {
             specimenData.specimenState = SpecimenData.State.UNLOCKED_ACTIVE;
             UICanvas.instance.DestroyAll();
+            GameManager.instance.clickCounter -= specimenData.price;
             GameManager.instance.currentAnimal = specimenData.animal;
             
             foreach (var child in specimenData.childSpecimens)
