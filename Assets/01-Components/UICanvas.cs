@@ -32,6 +32,10 @@ public class UICanvas : MonoBehaviour
         marketButton.onClick.AddListener(() =>
         {
             marketUI.SetActive(true);
+            
+            foreach (Animal animal in currentAnimalsOnScreen)
+                animal.gameObject.SetActive(false);
+
             GameManager.instance.gameOn = false;
             isHoldingMarketButton = true;
         });
