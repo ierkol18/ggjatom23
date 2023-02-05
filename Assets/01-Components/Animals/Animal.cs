@@ -61,8 +61,11 @@ public partial class Animal : MonoBehaviour
 
     public void tweenAnimalImage()
     {
-        _animalRT.DOSizeDelta(_tweenSize, _tweenDuration).SetEase(Ease.OutCubic).OnStepComplete(() => _animalRT.DOSizeDelta(_originalSize, _tweenDuration).SetEase(Ease.InCubic));
-    }
+        Debug.Log("Girdi");
+        _animalRT.DOSizeDelta(_tweenSize, _tweenDuration)
+                  .SetEase(Ease.OutCubic)
+                  .OnStepComplete(() => _animalRT.DOSizeDelta(_originalSize, _tweenDuration).SetEase(Ease.InCubic));
+    }    
 
     private IEnumerator MoveImage()
     {

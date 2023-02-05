@@ -75,10 +75,19 @@ public class UICanvas : MonoBehaviour
                 }
    
             }
+            /*
+            foreach (Animal a in currentAnimalsOnScreen)
+            {
+                a.tweenAnimalImage();
+            }
+            */
+            Animal.Fire_onTween();
+
+            scoreTMP.text = GameManager.instance.clickCounter.ToString();
+
         }
        
-        Animal.Fire_onTween();
-        scoreTMP.text = GameManager.instance.clickCounter.ToString();
+      
 
     }
 
