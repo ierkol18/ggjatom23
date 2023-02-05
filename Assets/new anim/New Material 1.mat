@@ -62,7 +62,7 @@ Material:
     - _Strength: 1
     - _UseUIAlphaClip: 0
     m_Colors:
-    - _Color: {r: 0.753, g: 0.60948706, b: 0.54969, a: 0.6745098}
+    - _Color: {r: 1, g: 0.52345175, b: 0.12641507, a: 1}
     - _Flip: {r: 1, g: 1, b: 1, a: 1}
     - _RendererColor: {r: 1, g: 1, b: 1, a: 1}
     - _Specular: {r: 0, g: 0, b: 0, a: 0}
