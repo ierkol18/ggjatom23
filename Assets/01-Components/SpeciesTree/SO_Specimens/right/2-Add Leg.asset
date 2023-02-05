@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Leg
   description: Create a Walking Fluff
-  specimenState: 2
+  specimenState: 1
   animationClip: {fileID: 7400000, guid: 1191abea55f904ff4b45ab5c7b8ebe52, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 4f844b5ae1c5f1e46a607e8ad6594794, type: 2}

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Oxygen
   description: "su alt\u0131 nefessizlikten \xF6ld\xFC"
-  specimenState: 0
+  specimenState: 1
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []

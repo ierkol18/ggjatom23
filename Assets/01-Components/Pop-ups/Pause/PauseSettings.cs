@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PauseSettings : MonoBehaviour
 {
@@ -22,10 +23,14 @@ public class PauseSettings : MonoBehaviour
     void onReplayButton()
     {
         //TODO
+        SceneManager.LoadSceneAsync(SceneManager.GetActiveScene().buildIndex);
+
     }
     void onResumeButton()
     {
         //TODO
+        GameManager.instance.gameOn = true;
+        Destroy(gameObject);
     }
     
 }

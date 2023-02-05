@@ -11,7 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/03-Acts/FirstAct/FirstAct.unity
     guid: cde388b87ece0427ba6e2c488adbcbad
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
-    path: Assets/00-Scenes/SeaScene/SeaScene.unity
-    guid: e4096d7ec533e46b3a6baab5018cd745
+    path: Assets/03-Acts/SeaScene/SeaScene.unity
+    guid: 28f4c677c968b4dc994aa46a404f131a
   m_configObjects: {}

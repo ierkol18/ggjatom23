@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add feet
   description: "Create a insanl\u0131ga karisti"
-  specimenState: 0
+  specimenState: 1
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []

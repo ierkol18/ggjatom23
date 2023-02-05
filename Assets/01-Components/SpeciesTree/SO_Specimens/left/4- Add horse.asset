@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add horse
   description: Create a aquataur
-  specimenState: 0
+  specimenState: 1
   animationClip: {fileID: 7400000, guid: c668dd69cd026474bb41c225e3c3ece4, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 0c81bde748ebae14ea6f9a13a4e78d81, type: 2}

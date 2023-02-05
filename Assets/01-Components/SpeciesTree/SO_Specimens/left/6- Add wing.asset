@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add wing
   description: Create a water snake dragon
-  specimenState: 0
+  specimenState: 1
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add hand
   description: Create a Ever-Touching
-  specimenState: 0
+  specimenState: 1
   animationClip: {fileID: 7400000, guid: 1edc02cc2945643c3aa6d6408034565f, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 7540ba78cefe975449ee07af85b98eaa, type: 2}

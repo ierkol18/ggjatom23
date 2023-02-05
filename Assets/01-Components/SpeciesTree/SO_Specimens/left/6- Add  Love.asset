@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Love
   description: Create a died bcs of loveless
-  specimenState: 0
+  specimenState: 1
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []

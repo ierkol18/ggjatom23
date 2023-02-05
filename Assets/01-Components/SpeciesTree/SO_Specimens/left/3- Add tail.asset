@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add tail
   description: Create a Octopus
-  specimenState: 0
+  specimenState: 1
   animationClip: {fileID: 7400000, guid: 6d31cf3a8e93245f99eb44b542bb0328, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 4bcb178846bd3764dac3e71c124f92d2, type: 2}

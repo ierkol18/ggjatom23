@@ -1,16 +1,25 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
+using TMPro;
+using Unity.Burst.CompilerServices;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
 public class UICanvas : MonoBehaviour
 {
+    [SerializeField] private PauseSettings ps;
+    [SerializeField] private Button marketButton;
+    [SerializeField] private GameObject marketUI;
+    [SerializeField] private TextMeshProUGUI scoreTMP;
+    
     public RectTransform rectT => transform as RectTransform;
     private Animal currentAnimal;
     public static UICanvas instance { get; private set; }
     public List<Animal> currentAnimalsOnScreen = new List<Animal>();
-    bool isDestroying = false;
+    public bool isDestroying = false, isHoldingMarketButton = false;
     private void Awake()
     {
         if (instance == null)
@@ -20,6 +29,13 @@ public class UICanvas : MonoBehaviour
         }
         else
             Destroy(gameObject);
+        marketButton.onClick.AddListener(() =>
+        {
+            marketUI.SetActive(true);
+            GameManager.instance.gameOn = false;
+            isHoldingMarketButton = true;
+        });
+
     }
 
     public void Prepare(Animal animal)
@@ -28,20 +44,22 @@ public class UICanvas : MonoBehaviour
         UICanvas.instance.currentAnimalsOnScreen.Add(GameManager.instance.currentAnimal);
     }
 
-    public void Update()
+    public void LateUpdate()
     {
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonUp(0) && !isHoldingMarketButton)
         {
+           
             Vector2 mousePos;
-
             GameManager.instance.onClick();
             StartCoroutine(onObjectClicked());
 
-            if (currentAnimal.specimenData.neededClickToClone <= GameManager.instance.clickCounter)
+            if (GameManager.instance.currentAnimal.specimenData.neededClickToClone <= GameManager.instance.clickCounter)
             {
-                if(currentAnimalsOnScreen.Count < currentAnimal.specimenData.maxInstanceCount)
+                
+
+                if (currentAnimalsOnScreen.Count < GameManager.instance.currentAnimal.specimenData.maxInstanceCount)
                 {
-                    Animal newAnimal = Instantiate(currentAnimal, rectT);
+                    Animal newAnimal = Instantiate(GameManager.instance.currentAnimal, rectT);
                     GameManager.instance.clickCounter = 0;
                     currentAnimalsOnScreen.Add(newAnimal);
                     if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectT, Input.mousePosition, null, out mousePos))
@@ -49,25 +67,25 @@ public class UICanvas : MonoBehaviour
                         newAnimal.gameObject.transform.position = rectT.TransformPoint(mousePos);
                     }
                 }
-                else
-                {
-                    DestroyAll();
-                    //GameManager.instance.currentAnimal = GameManager.instance.currentAnimal.specimenData.nextPossibleAnimalDatas[0].animal;
-                    //Debug.Log(GameManager.instance.currentAnimal);
-                }
+   
             }
         }
        
         tweenAnimalImage();
+        scoreTMP.text = GameManager.instance.clickCounter.ToString();
+
     }
 
-    private void DestroyAll()
+
+    public void DestroyAll()
     {
         if(isDestroying == false)
         {
             isDestroying = true;
             for (int i = 0; i < currentAnimalsOnScreen.Count; i++)
                 currentAnimalsOnScreen[i].DestroyAnimal();
+
+            currentAnimalsOnScreen = new List<Animal>();
         }
         
     }
@@ -95,5 +113,8 @@ public class UICanvas : MonoBehaviour
         .OnStepComplete(() => currentAnimal._animalRT.DOSizeDelta(currentAnimal._originalSize, currentAnimal._tweenDuration).SetEase(Ease.InCubic));
     }
 
-
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        
+    }
 }
