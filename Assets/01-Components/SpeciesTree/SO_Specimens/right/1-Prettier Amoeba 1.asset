@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: 1-Prettier Amoeba 1
   m_EditorClassIdentifier: 
   specimenName: Prettier Amoeba
-  description: Anadolu Ormanlarinda yasiyan cok killi ve maymunsu bir specimen. Barbar
-    olmasi ve koyleri yagmalamasiyla bilinir.
+  description: create prettier amoeba
   specimenState: 2
   animationClip: {fileID: 7400000, guid: b3270d05ea8f4412c9f4e80377e039eb, type: 2}
   childSpecimens:
