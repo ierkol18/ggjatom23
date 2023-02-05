@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 public partial class Animal : MonoBehaviour
 {
+    public static Action onTween;
+    public static void Fire_onTween() { onTween?.Invoke(); }
+
     // --------------DATA------------------------ 
     [Header("Animal Data")]
     public SpecimenData specimenData;
@@ -32,6 +35,7 @@ public partial class Animal : MonoBehaviour
         _animator = transform.GetComponent<Animator>();
         _animator.speed = _animationSpeed;
         onAnimationChange += OnAnimationChange;
+        onTween += tweenAnimalImage;
     }
 
     void Start()
@@ -39,20 +43,29 @@ public partial class Animal : MonoBehaviour
         image.sprite = specimenData.sprite;
         DOTween.Init(true, true, LogBehaviour.Verbose).SetCapacity(200, 10); // Dotween initialized for the first time to adding bounce effect when clicked.
         _animalRT = GetComponent<RectTransform>(); // Getting the rect transform of the animal sprite.
-        StartCoroutine(MoveImage());
+        currentAnimationClip = specimenData.animationClip;
+        _animator.Play(currentAnimationClip.name, 0, 0f);
 
+        StartCoroutine(MoveImage());
         //currentAnimationClip = _animator.GetCurrentAnimatorClipInfo(0)[0].clip;
     }
     
     public void OnAnimationChange(AnimationClip anim)
     {
-        if (anim != currentAnimationClip)
-        {
-            currentAnimationClip = anim;
-            _animator.Play(anim.name, 0, 0f);
-        }
+       // if (anim != currentAnimationClip)
+        //{
+            //currentAnimationClip = anim;
+           // _animator.Play(anim.name, 0, 0f);
+       // }
     }
 
+    public void tweenAnimalImage()
+    {
+        Debug.Log("Girdi");
+        _animalRT.DOSizeDelta(_tweenSize, _tweenDuration)
+                  .SetEase(Ease.OutCubic)
+                  .OnStepComplete(() => _animalRT.DOSizeDelta(_originalSize, _tweenDuration).SetEase(Ease.InCubic));
+    }    
 
     private IEnumerator MoveImage()
     {
@@ -65,6 +78,7 @@ public partial class Animal : MonoBehaviour
             yield return new WaitForSeconds(10);
         }
     }
+    
 
     public void DestroyAnimal()
     {
