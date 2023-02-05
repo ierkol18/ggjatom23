@@ -245,10 +245,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkillTree
       objectReference: {fileID: 0}
-    - target: {fileID: 7027259763103497999, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7027259763103498000, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
