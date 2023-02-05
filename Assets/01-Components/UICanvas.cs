@@ -18,7 +18,7 @@ public class UICanvas : MonoBehaviour
     public RectTransform rectT => transform as RectTransform;
     private Animal currentAnimal;
     public static UICanvas instance { get; private set; }
-    public List<Animal> currentAnimalsOnScreen = new List<Animal>();
+    public List<Animal> currentAnimalsOnScreen;
     public bool isDestroying = false, isHoldingMarketButton = false;
     private void Awake()
     {
@@ -41,7 +41,7 @@ public class UICanvas : MonoBehaviour
     public void Prepare(Animal animal)
     {
         currentAnimal = animal;
-        UICanvas.instance.currentAnimalsOnScreen.Add(GameManager.instance.currentAnimal);
+        currentAnimalsOnScreen.Add(GameManager.instance.currentAnimal);
     }
 
     public void LateUpdate()
@@ -62,6 +62,7 @@ public class UICanvas : MonoBehaviour
                     Animal newAnimal = Instantiate(GameManager.instance.currentAnimal, rectT);
                     GameManager.instance.clickCounter = 0;
                     currentAnimalsOnScreen.Add(newAnimal);
+                    Debug.Log(currentAnimalsOnScreen.Count);
                     if (RectTransformUtility.ScreenPointToLocalPointInRectangle(rectT, Input.mousePosition, null, out mousePos))
                     {
                         newAnimal.gameObject.transform.position = rectT.TransformPoint(mousePos);
@@ -79,14 +80,11 @@ public class UICanvas : MonoBehaviour
 
     public void DestroyAll()
     {
-        if(isDestroying == false)
-        {
-            isDestroying = true;
-            for (int i = 0; i < currentAnimalsOnScreen.Count; i++)
-                currentAnimalsOnScreen[i].DestroyAnimal();
-
-            currentAnimalsOnScreen = new List<Animal>();
-        }
+        for (int i = 0; i < currentAnimalsOnScreen.Count; i++)
+            currentAnimalsOnScreen[i].DestroyAnimal();
+            
+        currentAnimalsOnScreen.Clear();
+       
         
     }
 

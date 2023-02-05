@@ -251,7 +251,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7027259763103497999, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7027259763103498000, guid: 66ceab844086b6148a4bd82cb959038b, type: 3}
       propertyPath: m_Pivot.x
@@ -473,7 +473,6 @@ MonoBehaviour:
   marketButton: {fileID: 2134307646}
   marketUI: {fileID: 185991742}
   scoreTMP: {fileID: 1874185900}
-  currentAnimalsOnScreen: []
   isDestroying: 0
   isHoldingMarketButton: 0
 --- !u!114 &234586006

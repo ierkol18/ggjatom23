@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Upper Body
   description: Create a Mermaid
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: 67d8e206531e644b6a5af3d140e41c43, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 21654edaf08b9c941b43cf26613ef3d3, type: 2}

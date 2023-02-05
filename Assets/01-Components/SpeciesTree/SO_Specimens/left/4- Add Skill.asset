@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Skill
   description: Create a sepia
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: 50c77937db2f74a9ab8566bbc0df81e4, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 4cbb5248ec07db040a6c27c115df7836, type: 2}

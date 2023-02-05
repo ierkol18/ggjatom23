@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Neck
   description: Create a Giraffipede
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: 63a482a82e9db504fac396ac755ae6b4, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 6d05e989caf4df64f8a09244706d94b7, type: 2}

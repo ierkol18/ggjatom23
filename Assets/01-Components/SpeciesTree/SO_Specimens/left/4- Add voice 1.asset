@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add voice
   description: Create a siren
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: be00454d52b234f0b84a3d12e8af9ff1, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 0bb3631a00c58ea45add5cd6fcfadbbb, type: 2}

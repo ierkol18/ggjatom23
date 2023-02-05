@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add More More Legs
   description: Create a Sandigigapede
-  specimenState: 1
+  specimenState: 0
   animationClip: {fileID: 7400000, guid: a5e5ea77f5e35c940a3e6e3474168e5a, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 584e9b936279e8c4bbdce71156f6b230, type: 2}
