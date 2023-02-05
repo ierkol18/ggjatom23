@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Prettier Amoeba
   description: create prettier amoeba
-  specimenState: 2
+  specimenState: 1
   animationClip: {fileID: 7400000, guid: b3270d05ea8f4412c9f4e80377e039eb, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: 9e6147ba44978df44b885689f93795b1, type: 2}

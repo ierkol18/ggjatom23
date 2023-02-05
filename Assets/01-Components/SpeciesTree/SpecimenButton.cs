@@ -98,12 +98,15 @@ public class SpecimenButton : MonoBehaviour
         foreach (var child in specimenData.childSpecimens)
         {
             child.specimenState = SpecimenData.State.UNLOCKED_DISABLE;
+       
         }
         foreach (var sibling in specimenData.siblingSpecimens)
         {
             sibling.specimenState = SpecimenData.State.LOCKED;
         }
-
+        
+        UICanvas.instance.DestroyAll();
+        GameManager.instance.currentAnimal = specimenData.animal;
         isButtonClicked = true;
     }
 

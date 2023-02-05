@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   specimenName: Add Muscle
   description: Gym Bro
-  specimenState: 0
+  specimenState: 1
   animationClip: {fileID: 7400000, guid: 76a1991b948fc4d249f27ea3b08b5394, type: 2}
   childSpecimens:
   - {fileID: 11400000, guid: b14225329b3aacd4fad6bf841a1cf002, type: 2}

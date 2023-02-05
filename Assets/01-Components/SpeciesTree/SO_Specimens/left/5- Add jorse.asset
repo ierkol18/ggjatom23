@@ -16,7 +16,7 @@ MonoBehaviour:
   description: 'Create a horse
 
 '
-  specimenState: 0
+  specimenState: 1
   animationClip: {fileID: 0}
   childSpecimens: []
   siblingSpecimens: []
