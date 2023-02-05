@@ -354,9 +354,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7027259762029443272}
     m_Modifications:
-    - target: {fileID: 4642076047750703060, guid: c6a6da18fc98b3345b1e9d20ed49c611, type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 7.088623
+    - target: {fileID: 4546728572372651579, guid: c6a6da18fc98b3345b1e9d20ed49c611, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4781809997142132494, guid: c6a6da18fc98b3345b1e9d20ed49c611, type: 3}
       propertyPath: m_Pivot.x
@@ -446,7 +446,7 @@ PrefabInstance:
       propertyPath: m_Name
       value: Content
       objectReference: {fileID: 0}
-    - target: {fileID: 4781809997142132495, guid: c6a6da18fc98b3345b1e9d20ed49c611, type: 3}
+    - target: {fileID: 8599969003965132345, guid: c6a6da18fc98b3345b1e9d20ed49c611, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}

@@ -10,20 +10,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e0815de5ae2170478b2fdb2ea75ad7f, type: 3}
-  m_Name: 4- Add Skill
+  m_Name: 4- Add Skill 1
   m_EditorClassIdentifier: 
   specimenName: Add Skill
-  description: Create a sepia
+  description: dead end 1 bu
   specimenState: 0
-  animationClip: {fileID: 7400000, guid: 50c77937db2f74a9ab8566bbc0df81e4, type: 2}
-  childSpecimens:
-  - {fileID: 11400000, guid: 4cbb5248ec07db040a6c27c115df7836, type: 2}
-  - {fileID: 11400000, guid: bb11376c33487de468c6bae574a7c7a8, type: 2}
+  animationClip: {fileID: 0}
+  childSpecimens: []
   siblingSpecimens:
-  - {fileID: 11400000, guid: 380b28f6bddff5c479cc416c69c59725, type: 2}
-  animal: {fileID: 6208985903057550371, guid: 0067294978bfe5144bb6922b923a556b, type: 3}
+  - {fileID: 11400000, guid: 4cbb5248ec07db040a6c27c115df7836, type: 2}
+  animal: {fileID: 0}
   objectsOnClick_prefab: {fileID: -7487121291413367290, guid: f6a007b465f4a4ad5b7e66d4e437d947, type: 3}
-  sprite: {fileID: 21300000, guid: c656c3319d6b1481e8101805b78b3d3f, type: 3}
+  sprite: {fileID: 0}
   maxInstanceCount: 2
   neededClickToClone: 20
   price: 150
