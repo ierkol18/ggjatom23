@@ -93,20 +93,23 @@ public class SpecimenButton : MonoBehaviour
 
     private void SelectSpecimen()
     {
-        specimenData.specimenState = SpecimenData.State.UNLOCKED_ACTIVE;
-        UICanvas.instance.DestroyAll();
-        GameManager.instance.currentAnimal = specimenData.animal;
-        foreach (var child in specimenData.childSpecimens)
+        if(GameManager.instance.clickCounter >= specimenData.price)
         {
-            child.specimenState = SpecimenData.State.UNLOCKED_DISABLE;
-       
+            specimenData.specimenState = SpecimenData.State.UNLOCKED_ACTIVE;
+            UICanvas.instance.DestroyAll();
+            GameManager.instance.currentAnimal = specimenData.animal;
+            
+            foreach (var child in specimenData.childSpecimens)
+                child.specimenState = SpecimenData.State.UNLOCKED_DISABLE;
+
+            foreach (var sibling in specimenData.siblingSpecimens)
+            {
+                if (sibling is not null)
+                    sibling.specimenState = SpecimenData.State.LOCKED;
+            }
+
         }
-        foreach (var sibling in specimenData.siblingSpecimens)
-        {
-            if(sibling is not null)
-                sibling.specimenState = SpecimenData.State.LOCKED;
-        }
-        
+   
       
         isButtonClicked = true;
     }
